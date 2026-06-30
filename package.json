@@ -1,0 +1,31 @@
+{
+  "name": "ios-app-pipeline",
+  "version": "0.1.0",
+  "description": "Free Stage-1 ideation tier of the iOS app pipeline. Generated from github.com/airman416/Apps.",
+  "type": "module",
+  "bin": {
+    "ios-app-pipeline": "bin/create.mjs"
+  },
+  "files": [
+    "bin/",
+    ".claude/skills/",
+    "AppsNotes/",
+    "banner.png",
+    "CLAUDE.md"
+  ],
+  "keywords": [
+    "claude-code",
+    "ios",
+    "skills",
+    "scaffold",
+    "swiftui"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airman416/ios-app-pipeline.git"
+  }
+}
